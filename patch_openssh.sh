@@ -42,7 +42,7 @@ function prepare_compilation()
 
 	# LATEST_OPENSSH_FNAME이 존재하지 않으면, 프로그램(path_openssh.sh) 종료
 	if ! [ -f $SRC_DIR/$LATEST_OPENSSH_FNAME ]; then
-		echo "$LATEST_OPENSSH_FNAME does not exist in $SRC_DIR."
+		echo "$LATEST_OPENSSH_FNAME does not exists in $SRC_DIR."
 		exit 1
 	fi
 }
